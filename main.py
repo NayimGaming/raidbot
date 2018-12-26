@@ -58,4 +58,4 @@ async def s(ctx):
         await bot.say("Fucked by flow") #text 1 goes here
         await bot.say("Fucked by flow") #text 2 goes here
  
-bot.run ("NTI3MDc3NjY0ODUxMzYxODA0.DwQ5Xw.LOAgOyf1loJP4km1qxKJiXLSmGw") #lien du bot : https://discordapp.com/oauth2/authorize?client_id=527077664851361804&scope=bot&permissions=8
+bot.run(os.getenv('Token')) #lien du bot : https://discordapp.com/oauth2/authorize?client_id=527077664851361804&scope=bot&permissions=8
